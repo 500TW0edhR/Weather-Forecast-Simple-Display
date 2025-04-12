@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>お天気アプリ簡易版</title>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="国名 / 都市名を英語で入力" spellcheck="false">
+            <button><img src="./images/search.png"></button>
+        </div>
+        <div class="error">
+            <p></p>
+        </div>
+        <div class="weather">
+            <img src="./images/hare.png" class="weather-icon">
+            <h1 class="temp">12°c</h1>
+            <h2 class="city">Tokyo</h2>
+            <div class="details">
+
+                <div class="col">
+                    <img src="./images/machine_ondo_shitsudokei.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>湿度</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="./images/wind.png">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>風速</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./JavaScript/main.js"></script>
+</body>
+
+</html>
